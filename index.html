@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1 class="title">Interactive Photo Gallery</h1>
+
+  <div class="gallery">
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1015/600/400" alt="Mountain View">
+      <div class="info">
+        <h3>Mountain View</h3>
+        <p>Beautiful mountain landscape with lake.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1016/600/400" alt="Forest Path">
+      <div class="info">
+        <h3>Forest Path</h3>
+        <p>A peaceful path through the forest.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1025/600/400" alt="Cute Dog">
+      <div class="info">
+        <h3>Cute Dog</h3>
+        <p>A cute dog enjoying nature.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1035/600/400" alt="River Bridge">
+      <div class="info">
+        <h3>River Bridge</h3>
+        <p>Bridge over a calm river.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1040/600/400" alt="Beach Sunset">
+      <div class="info">
+        <h3>Beach Sunset</h3>
+        <p>Golden sunset at the beach.</p>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="https://picsum.photos/id/1050/600/400" alt="City Skyline">
+      <div class="info">
+        <h3>City Skyline</h3>
+        <p>Night view of the city skyline.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <img id="modal-img" src="" alt="">
+
+      <div class="modal-info">
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
